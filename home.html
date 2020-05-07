@@ -5,33 +5,37 @@
         <title></title>
         <meta name="description" content="">
         <meta name="author" content="Marina Machado"/>
-        <!-- IMPORTS -->
-        <link href="build/css/stylesheet.css" rel="stylesheet">
-        <link href="build/js/javascript.js" rel="js">
         <!-- NODE MODULES DEPENDENCIES -->
-        <link href="node_modules/bootstrap/css//bootstrap.min.css" rel="stylesheet">
+        <link href="node_modules/jquery/dist/jquery.min.js" rel="js">
+        <link href="node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="node_modules/bootstrap/js/bootstrap.min.js" rel="js">
         <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet">
         <link href="node_modules/@fortawesome/fontawesome-free/css/brands.min.css" rel="stylesheet">
         <link href="node_modules/@fortawesome/fontawesome-free/css/solid.min.css" rel="stylesheet">
+        <!-- IMPORTS -->
+        <link href="build/css/stylesheet.css" rel="stylesheet">
+        <link href="build/js/javascript.js" rel="js">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <h1>Marina Machado</h1>
-                    <h2>UX Designer</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" id="nav-home" href="home.html">Welcome!</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-md sticky-top navbar-light">
+                <div class="container">
+                    <span class="navbar-brand" id="author">
+                        <h5>Marina Machado</h5>
+                        <p>UX Designer</p>
+                    </span>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <nav class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" id="nav-home" href="home.html" title="Welcome!">Welcome!</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>

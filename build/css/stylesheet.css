@@ -1,3 +1,46 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+* {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #404040;
+}
 
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 300;
+}
+
+.navbar {
+  height: 120px;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse {
+  flex-grow: initial;
+}
+
+.navbar-nav {
+  flex-direction: row-reverse;
+}
+
+.nav-link {
+  color: #404040;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */

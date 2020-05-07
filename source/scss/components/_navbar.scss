@@ -1,0 +1,22 @@
+// IMPORTS
+@import "../colors";
+
+.navbar {
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.navbar-light {
+    background-color: $color-light;
+
+    .nav-link {
+        color: $color-font-dark;
+    }
+}
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-nav {
+    flex-direction: row-reverse;
+}
