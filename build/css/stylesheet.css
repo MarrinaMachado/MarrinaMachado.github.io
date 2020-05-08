@@ -1,3 +1,70 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+* {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #404040;
+}
 
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 300;
+}
+
+.navbar {
+  height: 120px;
+  padding: 0;
+  margin: 0;
+}
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+}
+.navbar-light .nav-link {
+  color: #404040;
+}
+
+.navbar-collapse {
+  flex-grow: initial;
+}
+
+.navbar-nav {
+  flex-direction: row-reverse;
+}
+
+footer .social-media-links {
+  list-style: none;
+}
+footer .social-media-links .social-media-link {
+  font-size: 32px;
+}
+footer .social-media-links .social-media-link .linkedin, footer .social-media-links .social-media-link .linkedin i {
+  color: #2674B2;
+}
+footer .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,36 @@
+// IMPORTS
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+@import "colors";
+
+// VARIABLES
+$font-weight-regular: 300;
+
+// STYLE DEFINITION
+* {
+    font-family: Poppins, sans-serif;
+    font-weight: $font-weight-regular;
+    color: $color-font-dark;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+} 
+
+p {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-weight: $font-weight-regular;
+}
