@@ -2,17 +2,20 @@
 @import "../colors";
 @import "../sizes";
 
+// VARIABLES
+$navbar-height: 120px;
+
 // STYLE DEFINITION
 .navbar {
-    height: 120px;
+    height: $navbar-height;
     padding: 0;
     margin: 0;
 
     .container {
         padding-top: 0;
         padding-bottom: 0;
-        padding-left: $padding-normal;
-        padding-right: $padding-normal;
+        padding-left: $padding-md;
+        padding-right: $padding-md;
     }
 }
 .navbar-light {

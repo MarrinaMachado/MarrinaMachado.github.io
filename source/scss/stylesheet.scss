@@ -1,4 +1,34 @@
 @import "typography";
 @import "icons";
+@import "colors";
+@import "sizes";
 @import "components/navbar";
 @import "components/footer";
+@import "components/buttons";
+
+// STYLE DEFINITION
+
+.overlay {
+    background-color:$color-overlay-dark;
+}
+
+.main-banner {
+    margin-top: -$navbar-height;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+
+    .container {
+        padding-top: $padding-xl;
+        padding-bottom: $padding-xl;
+
+        .btn {
+            margin-top: $padding-lg;
+        }
+    }
+
+    background: url(../../build/img/banner.jpg) no-repeat top center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

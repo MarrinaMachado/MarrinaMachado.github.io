@@ -4,6 +4,9 @@
 
 // STYLE DEFINITION
 footer {
+    padding-top: $padding-lg;
+    padding-bottom: $padding-lg; 
+
     .social-media-links {
         list-style: none;
 
@@ -19,7 +22,7 @@ footer {
     .container {
         padding-top: 0;
         padding-bottom: 0;
-        padding-left: $padding-normal;
-        padding-right: $padding-normal;
+        padding-left: $padding-md;
+        padding-right: $padding-md;
     }
 }

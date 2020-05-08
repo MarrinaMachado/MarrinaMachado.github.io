@@ -1,18 +1,30 @@
 // IMPORTS
-@import"https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
 @import "colors";
 
 // VARIABLES
+$font-weight-xbold: 600;
+$font-weight-bold: 500;
 $font-weight-regular: 300;
+$font-regular: Poppins, sans-serif;
+$font-weight-fancy: 400;
+$font-fancy: Gaegu, cursive;
 
 // STYLE DEFINITION
 * {
-    font-family: Poppins, sans-serif;
+    font-family: $font-regular;
     font-weight: $font-weight-regular;
     color: $color-font-dark;
 }
 
-h1 {}
+h1 {
+    font-size: 32px;
+    font-weight: $font-weight-bold;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
 h2 {}
 h3 {}
 h4 {}
@@ -30,7 +42,16 @@ p {
     margin: 0;
     padding: 0;
 }
+p.fancy {
+    font-size: 20px;
+    font-family: $font-fancy;
+    font-weight: $font-weight-fancy;
+}
 
 a {
     font-weight: $font-weight-regular;
+}
+
+.color-light, .color-light * {
+    color: $color-font-light;
 }

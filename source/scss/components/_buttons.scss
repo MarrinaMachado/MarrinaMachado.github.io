@@ -1,0 +1,24 @@
+// IMPORTS
+@import "../colors";
+@import "../typography";
+
+// STYLE DEFINITION
+.btn {
+    border: none;
+    border-radius: 20px;
+    line-height: 40px;
+    min-width: 128px;
+    font-weight: $font-weight-xbold;
+    font-size: 14px;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    color: $color-font-dark;
+}
+
+.btn-primary:hover {
+    background-color: $color-primary-dark;
+    color: $color-font-light;
+}

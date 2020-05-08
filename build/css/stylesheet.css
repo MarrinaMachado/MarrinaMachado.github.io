@@ -1,8 +1,19 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
 * {
   font-family: Poppins, sans-serif;
   font-weight: 300;
   color: #404040;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
 }
 
 h5 {
@@ -20,8 +31,18 @@ p {
   padding: 0;
 }
 
+p.fancy {
+  font-size: 20px;
+  font-family: Gaegu, cursive;
+  font-weight: 400;
+}
+
 a {
   font-weight: 300;
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
 }
 
 .navbar {
@@ -51,6 +72,10 @@ a {
   flex-direction: row-reverse;
 }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 footer .social-media-links {
   list-style: none;
 }
@@ -65,6 +90,91 @@ footer .container {
   padding-bottom: 0;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #404040;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p.fancy {
+  font-size: 20px;
+  font-family: Gaegu, cursive;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 300;
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+  line-height: 40px;
+  min-width: 128px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #FCDC4B;
+  color: #404040;
+}
+
+.btn-primary:hover {
+  background-color: #F3BF0C;
+  color: #ffffff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-banner {
+  margin-top: -120px;
+  padding-top: 120px;
+  padding-bottom: 0;
+  background: url(../../build/img/banner.jpg) no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main-banner .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main-banner .container .btn {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
