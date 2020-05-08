@@ -26,9 +26,21 @@ a {
 
 .navbar {
   height: 120px;
-  background-color: #ffffff;
   padding: 0;
   margin: 0;
+}
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+}
+.navbar-light .nav-link {
+  color: #404040;
 }
 
 .navbar-collapse {
@@ -39,8 +51,20 @@ a {
   flex-direction: row-reverse;
 }
 
-.nav-link {
-  color: #404040;
+footer .social-media-links {
+  list-style: none;
+}
+footer .social-media-links .social-media-link {
+  font-size: 32px;
+}
+footer .social-media-links .social-media-link .linkedin, footer .social-media-links .social-media-link .linkedin i {
+  color: #2674B2;
+}
+footer .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

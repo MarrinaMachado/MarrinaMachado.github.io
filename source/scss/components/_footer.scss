@@ -1,0 +1,25 @@
+// IMPORTS
+@import "../icons";
+@import "../colors";
+
+// STYLE DEFINITION
+footer {
+    .social-media-links {
+        list-style: none;
+
+        .social-media-link {
+            font-size: $icon-size-md;
+
+            .linkedin, .linkedin i {
+                color: $color-brand-linkedin;
+            }
+        }
+    }
+
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: $padding-normal;
+        padding-right: $padding-normal;
+    }
+}

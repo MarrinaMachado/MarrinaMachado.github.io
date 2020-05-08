@@ -1,10 +1,19 @@
 // IMPORTS
 @import "../colors";
+@import "../sizes";
 
+// STYLE DEFINITION
 .navbar {
     height: 120px;
     padding: 0;
     margin: 0;
+
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: $padding-normal;
+        padding-right: $padding-normal;
+    }
 }
 .navbar-light {
     background-color: $color-light;
