@@ -11,14 +11,14 @@
     font-weight: $font-weight-xbold;
     font-size: 14px;
     padding: 0;
-}
 
-.btn-primary {
-    background-color: $color-primary;
-    color: $color-font-dark;
-}
+    &.btn-primary {
+        background-color: $color-primary;
+        color: $color-font-dark;
 
-.btn-primary:hover {
-    background-color: $color-primary-dark;
-    color: $color-font-light;
+        &:hover {
+            background-color: $color-primary-dark;
+            color: $color-font-light;
+        }
+    }
 }

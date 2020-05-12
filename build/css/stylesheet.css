@@ -2,6 +2,14 @@
 @import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
+}
+
 * {
   font-family: Poppins, sans-serif;
   font-weight: 300;
@@ -11,26 +19,21 @@
 h1 {
   font-size: 32px;
   font-weight: 500;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 h5 {
   font-size: 20px;
   font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
 }
 
 p {
   font-size: 16px;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
 }
-
 p.fancy {
   font-size: 20px;
   font-family: Gaegu, cursive;
@@ -39,6 +42,18 @@ p.fancy {
 
 a {
   font-weight: 300;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .color-light, .color-light * {
@@ -56,6 +71,10 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
+.navbar h5, .navbar p {
+  line-height: normal;
+  margin: 0;
+}
 
 .navbar-light {
   background-color: #ffffff;
@@ -70,6 +89,14 @@ a {
 
 .navbar-nav {
   flex-direction: row-reverse;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
 }
 
 footer {
@@ -92,6 +119,22 @@ footer .container {
   padding-right: 15px;
 }
 
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-light, .color-light * {
+  color: #ffffff;
+}
+
 * {
   font-family: Poppins, sans-serif;
   font-weight: 300;
@@ -101,26 +144,21 @@ footer .container {
 h1 {
   font-size: 32px;
   font-weight: 500;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 h5 {
   font-size: 20px;
   font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
 }
 
 p {
   font-size: 16px;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
 }
-
 p.fancy {
   font-size: 20px;
   font-family: Gaegu, cursive;
@@ -129,10 +167,6 @@ p.fancy {
 
 a {
   font-weight: 300;
-}
-
-.color-light, .color-light * {
-  color: #ffffff;
 }
 
 .btn {
@@ -144,22 +178,25 @@ a {
   font-size: 14px;
   padding: 0;
 }
-
-.btn-primary {
+.btn.btn-primary {
   background-color: #FCDC4B;
   color: #404040;
 }
-
-.btn-primary:hover {
+.btn.btn-primary:hover {
   background-color: #F3BF0C;
   color: #ffffff;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+.banner .container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner.banner-primary {
+  background-color: #FCDC4B;
 }
 
-.main-banner {
+.banner#welcome-banner {
   margin-top: -120px;
   padding-top: 120px;
   padding-bottom: 0;
@@ -169,12 +206,12 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }
-.main-banner .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.main-banner .container .btn {
+.banner#welcome-banner .container .btn {
   margin-top: 30px;
+}
+.banner#welcome-banner h1, .banner#welcome-banner p {
+  line-height: normal;
+  margin: 0;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

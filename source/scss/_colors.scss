@@ -4,6 +4,14 @@ $color-font-light: #ffffff;
 $color-light: #ffffff;
 $color-brand-linkedin: #2674B2;
 $color-overlay-dark: rgba(0,0,0,0.5);
-
 $color-primary: #FCDC4B;
 $color-primary-dark: #F3BF0C;
+
+// STYLE DEFINITION
+.bg-overlay {
+    background-color:$color-overlay-dark;
+}
+
+.color-light, .color-light * {
+    color: $color-font-light;
+}

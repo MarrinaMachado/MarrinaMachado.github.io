@@ -21,37 +21,28 @@ $font-fancy: Gaegu, cursive;
 h1 {
     font-size: 32px;
     font-weight: $font-weight-bold;
-    line-height: normal;
-    margin: 0;
-    padding: 0;
 }
-h2 {}
+h2 {
+    font-size: 24px;
+    font-weight: $font-weight-xbold;
+}
 h3 {}
 h4 {}
 h5 {
     font-size: 20px;
     font-weight: 600;
-    line-height: normal;
-    margin: 0;
-    padding: 0;
 } 
 
 p {
     font-size: 16px;
-    line-height: normal;
-    margin: 0;
-    padding: 0;
-}
-p.fancy {
-    font-size: 20px;
-    font-family: $font-fancy;
-    font-weight: $font-weight-fancy;
+
+    &.fancy {
+        font-size: 20px;
+        font-family: $font-fancy;
+        font-weight: $font-weight-fancy;
+    }
 }
 
 a {
     font-weight: $font-weight-regular;
-}
-
-.color-light, .color-light * {
-    color: $color-font-light;
 }
