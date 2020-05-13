@@ -1,13 +1,17 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap";
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 * {
@@ -19,24 +23,54 @@
 h1 {
   font-size: 32px;
   font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+h1:last-child {
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+h2:last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+}
+h3:last-child {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 1.5rem;
+}
+h4:last-child {
+  margin-bottom: 0;
 }
 
 h5 {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+h5:last-child {
+  margin-bottom: 0;
 }
 
 p {
   font-size: 16px;
+  margin-bottom: 1rem;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 p.fancy {
-  font-size: 20px;
-  font-family: Gaegu, cursive;
+  font-size: 22px;
+  font-family: "La Belle Aurore", cursive;
   font-weight: 400;
 }
 
@@ -48,16 +82,24 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 .navbar {
@@ -95,8 +137,12 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 footer {
@@ -123,16 +169,24 @@ footer .container {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.color-light, .color-light * {
-  color: #ffffff;
+.text-light, .text-light * {
+  color: #ffffff !important;
+}
+
+.text-primary, .text-primary * {
+  color: #FCDC4B !important;
 }
 
 * {
@@ -144,24 +198,54 @@ footer .container {
 h1 {
   font-size: 32px;
   font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+h1:last-child {
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+h2:last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+}
+h3:last-child {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 1.5rem;
+}
+h4:last-child {
+  margin-bottom: 0;
 }
 
 h5 {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+h5:last-child {
+  margin-bottom: 0;
 }
 
 p {
   font-size: 16px;
+  margin-bottom: 1rem;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 p.fancy {
-  font-size: 20px;
-  font-family: Gaegu, cursive;
+  font-size: 22px;
+  font-family: "La Belle Aurore", cursive;
   font-weight: 400;
 }
 
@@ -188,7 +272,6 @@ a {
 }
 
 .banner .container {
-  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -212,6 +295,12 @@ a {
 .banner#welcome-banner h1, .banner#welcome-banner p {
   line-height: normal;
   margin: 0;
+}
+
+.icon-quote {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

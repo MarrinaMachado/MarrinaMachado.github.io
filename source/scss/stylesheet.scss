@@ -9,7 +9,6 @@
 // STYLE DEFINITION
 .banner {
     .container {
-        text-align: center;
         padding-top: $padding-xl;
         padding-bottom: $padding-xl;
     }
@@ -38,4 +37,10 @@
         line-height: normal;
         margin: 0;
     }
+}
+
+.icon-quote {
+    margin-top: $padding-md;
+    margin-bottom: $padding-lg;
+    font-size: 40px;
 }

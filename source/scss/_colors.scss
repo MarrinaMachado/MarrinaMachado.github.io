@@ -12,6 +12,9 @@ $color-primary-dark: #F3BF0C;
     background-color:$color-overlay-dark;
 }
 
-.color-light, .color-light * {
-    color: $color-font-light;
+.text-light, .text-light * {
+    color: $color-font-light!important;
+}
+.text-primary, .text-primary * {
+    color: $color-primary!important;
 }
