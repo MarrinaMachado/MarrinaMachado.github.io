@@ -44,3 +44,22 @@
     margin-bottom: $padding-lg;
     font-size: 40px;
 }
+
+.personality-trait {
+
+    .trait-name {
+        margin-top: -30px;
+        padding: 0 20px;
+        display: inline-block;
+        width: 100%;
+
+        h5 {
+            background-color: $color-primary;
+            line-height: 45px;
+        }
+    }
+
+    .trait-details {
+        margin-top: $padding-md;
+    }
+}
