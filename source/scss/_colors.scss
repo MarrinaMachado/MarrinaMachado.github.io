@@ -13,8 +13,8 @@ $color-primary-dark: #F3BF0C;
 }
 
 .text-light, .text-light * {
-    color: $color-font-light!important;
+    color: $color-font-light;
 }
-.text-primary, .text-primary * {
+.text-primary {
     color: $color-primary!important;
 }

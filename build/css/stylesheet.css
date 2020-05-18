@@ -7,10 +7,10 @@
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -83,10 +83,10 @@ a {
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -95,10 +95,10 @@ a {
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -138,10 +138,10 @@ a {
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -170,10 +170,10 @@ footer .container {
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -182,10 +182,10 @@ footer .container {
 }
 
 .text-light, .text-light * {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.text-primary, .text-primary * {
+.text-primary {
   color: #FCDC4B !important;
 }
 
@@ -315,6 +315,46 @@ a {
 }
 .personality-trait .trait-details {
   margin-top: 15px;
+}
+
+.gallery-grid .gallery-item {
+  margin: 15px 0;
+}
+.gallery-grid .gallery-item .item-container {
+  overflow: hidden;
+  background-color: #404040;
+}
+.gallery-grid .gallery-item p, .gallery-grid .gallery-item h5 {
+  color: #ffffff;
+}
+.gallery-grid .gallery-item .item-description {
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding: 50px;
+  opacity: 0;
+  transition: 0.8s ease;
+}
+.gallery-grid .gallery-item img {
+  transition: 0.8s ease;
+}
+.gallery-grid .gallery-item:hover img {
+  transform: scale(1.3);
+  opacity: 0.5;
+}
+.gallery-grid .gallery-item:hover .item-description {
+  opacity: 1;
+}
+@media (max-width: 960px) {
+  .gallery-grid .gallery-item .item-description {
+    padding: 30px;
+  }
+  .gallery-grid .gallery-item .item-description p, .gallery-grid .gallery-item .item-description h5 {
+    font-size: 75%;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
