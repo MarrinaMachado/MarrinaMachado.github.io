@@ -55,6 +55,9 @@ p {
         font-family: $font-fancy;
         font-weight: $font-weight-fancy;
     }
+    &.large {
+        font-size: 125%;
+    }
 }
 
 a {

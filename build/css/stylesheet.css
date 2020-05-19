@@ -73,6 +73,9 @@ p.fancy {
   font-family: "La Belle Aurore", cursive;
   font-weight: 400;
 }
+p.large {
+  font-size: 125%;
+}
 
 a {
   font-weight: 300;
@@ -248,19 +251,30 @@ p.fancy {
   font-family: "La Belle Aurore", cursive;
   font-weight: 400;
 }
+p.large {
+  font-size: 125%;
+}
 
 a {
   font-weight: 300;
 }
 
 .btn {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-right: 15px;
   border: none;
   border-radius: 20px;
+  height: 40px;
   line-height: 40px;
   min-width: 128px;
   font-weight: 600;
   font-size: 14px;
-  padding: 0;
+  padding: 0 15px;
+}
+.btn:last-of-type {
+  margin-right: 0;
 }
 .btn.btn-primary {
   background-color: #FCDC4B;
@@ -268,6 +282,17 @@ a {
 }
 .btn.btn-primary:hover {
   background-color: #F3BF0C;
+  color: #ffffff;
+}
+.btn.btn-secondary {
+  background-color: transparent;
+  color: #FCDC4B;
+  border: 3px solid #FCDC4B;
+  line-height: 34px;
+}
+.btn.btn-secondary:hover {
+  background-color: #F3BF0C;
+  border-color: #F3BF0C;
   color: #ffffff;
 }
 
@@ -283,7 +308,7 @@ a {
   margin-top: -120px;
   padding-top: 120px;
   padding-bottom: 0;
-  background: url(../../build/img/banner.jpg) no-repeat top center scroll;
+  background: url(../../build/img/welcome-banner.jpg) no-repeat top center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -294,6 +319,20 @@ a {
 }
 .banner#welcome-banner h1, .banner#welcome-banner p {
   line-height: normal;
+  margin: 0;
+}
+
+.banner#shortcut-banner {
+  background: url(../../build/img/shortcut-banner.jpeg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner#shortcut-banner .btn {
+  margin-top: 15px;
+}
+.banner#shortcut-banner h2 {
   margin: 0;
 }
 

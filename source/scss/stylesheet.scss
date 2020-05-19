@@ -23,7 +23,7 @@
     padding-top: $navbar-height;
     padding-bottom: 0;
 
-    background: url(../../build/img/banner.jpg) no-repeat top center scroll; 
+    background: url(../../build/img/welcome-banner.jpg) no-repeat top center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,6 +35,18 @@
 
     h1, p {
         line-height: normal;
+        margin: 0;
+    }
+}
+
+.banner#shortcut-banner {
+    background: url(../../build/img/shortcut-banner.jpeg) no-repeat center center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    h2 {
         margin: 0;
     }
 }
