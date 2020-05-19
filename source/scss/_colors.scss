@@ -1,32 +1,42 @@
 // VARIABLES
-$color-font-dark:#404040;
-$color-font-light: #ffffff;
+$color-dark:#404040;
 $color-light: #ffffff;
-$color-brand-linkedin: #2674B2;
+
 $color-overlay-dark: rgba(0,0,0,0.5);
 $color-primary: #FCDC4B;
-$color-primary-dark: #F3BF0C;
+$color-primary-s1: #F3BF0C;
+
+$color-brand-linkedin: #2674B2;
 $color-brand-sass: #CD6799;
 $color-brand-html5: #E75534;
 $color-brand-js: #EA7F39;
 $color-brand-bootstrap: #563D7C;
 
 // STYLE DEFINITION
-.bg-overlay {
-    background-color:$color-overlay-dark;
+.overlay {
+    background-color: $color-overlay-dark;
 }
 
 .text-light, .text-light * {
-    color: $color-font-light;
+    color: $color-light;
 }
+
 .text-primary {
     color: $color-primary!important;
 }
 
-.fab {
-    &.fa-bootstrap { color: $color-brand-bootstrap; }
-    &.fa-linkedin { color: $color-brand-linkedin; }
-    &.fa-html5 { color: $color-brand-html5; }
-    &.fa-js { color: $color-brand-js; }
-    &.fa-sass { color: $color-brand-sass; }
+.navbar-light {
+    background-color: $color-light;
+
+    .nav-link {
+        color: $color-dark;
+    }
+}
+
+.bg-primary {
+    background-color: $color-primary!important;
+}
+
+.bg-dark {
+    background-color: $color-dark;
 }

@@ -1,42 +1,65 @@
 @import "typography";
 @import "icons";
 @import "colors";
-@import "sizes";
-@import "components/navbar";
-@import "components/footer";
-@import "components/buttons";
+@import "spacing";
+@import "buttons";
 
-// STYLE DEFINITION
-.banner {
-    .container {
-        padding-top: $padding-xl;
-        padding-bottom: $padding-xl;
+/*** CONTAINERS ***/
+
+// FOOTER & NAVBAR
+footer {
+    overflow: hidden;
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+
+    color: $color-light;
+    background-color: $color-dark; 
+
+    .social-media-links {
+        list-style: none;
+
+        .social-media-link .fab { color: $color-light; }
     }
+}
 
-    &.banner-primary {
-        background-color: $color-primary;  
+$navbar-height: 120px;
+.navbar {
+    height: $navbar-height;
+    padding: 0;
+    margin: 0;
+
+    .navbar-collapse { flex-grow: initial; }
+    .navbar-nav { flex-direction: row-reverse; }
+}
+
+footer, .navbar {
+
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: $spacing-md;
+        padding-right: $spacing-md;
+    }
+}
+
+// BANNERS
+.banner {
+
+    .container {
+        padding-top: $spacing-xl;
+        padding-bottom: $spacing-xl;
     }
 }
 
 .banner#welcome-banner {
     margin-top: -$navbar-height;
     padding-top: $navbar-height;
-    padding-bottom: 0;
 
     background: url(../../build/img/welcome-banner.jpg) no-repeat top center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    .container .btn {
-        margin-top: $padding-lg;
-    }
-
-    h1, p {
-        line-height: normal;
-        margin: 0;
-    }
 }
 
 .banner#shortcut-banner {
@@ -45,18 +68,20 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    h2 {
-        margin: 0;
-    }
 }
 
-.icon-quote {
-    margin-top: $padding-md;
-    margin-bottom: $padding-lg;
+
+// QUOTE
+.quote-icon {
+    margin-top: $spacing-md;
+    margin-bottom: $spacing-lg;
     font-size: 40px;
 }
+.fancy.quote-signature {
+    margin-top: $spacing-xl;
+}
 
+// PERSONALITY TRAIT
 .personality-trait {
 
     .trait-name {
@@ -65,29 +90,25 @@
         display: inline-block;
         width: 100%;
 
-        h5 {
+        * {
             background-color: $color-primary;
             line-height: 45px;
         }
     }
 
     .trait-details {
-        margin-top: $padding-md;
+        margin-top: $spacing-md;
     }
 }
 
+// GALLERY
 .gallery-grid {
 
     .gallery-item {
-        margin: $padding-md 0;
+        margin: $spacing-md 0;
 
         .item-container {
             overflow: hidden;
-            background-color: $color-font-dark;
-        }
-
-        p, h5 {
-            color: $color-font-light;
         }
   
         .item-description {
@@ -95,11 +116,13 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            text-align: center;
-            width: 100%;
-            padding: $padding-xl;
-            opacity: 0;
 
+            width: 100%;
+            padding: $spacing-xl;
+
+            text-align: center;
+
+            opacity: 0;
             transition: 0.8s ease;
         }
 
@@ -120,13 +143,12 @@
 
         @media (max-width: 960px) {
             .item-description {
-                padding: $padding-lg;
+                padding: $spacing-lg;
                 
                 p, h5 {
                     font-size: 75%;
                 }
             }
         }
-
     }
 }
