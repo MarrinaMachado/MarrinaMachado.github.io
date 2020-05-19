@@ -14,6 +14,22 @@
   color: #FCDC4B !important;
 }
 
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
+}
+
 * {
   font-family: Poppins, sans-serif;
   font-weight: 300;
@@ -81,6 +97,16 @@ a {
   font-weight: 300;
 }
 
+.icon-md {
+  margin-right: 15px;
+}
+.icon-md:last-of-type {
+  margin-right: 0;
+}
+.icon-md.fab {
+  font-size: 32px;
+}
+
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -93,6 +119,22 @@ a {
   color: #FCDC4B !important;
 }
 
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
+}
+
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -103,6 +145,22 @@ a {
 
 .text-primary {
   color: #FCDC4B !important;
+}
+
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
 }
 
 .navbar {
@@ -136,6 +194,16 @@ a {
   flex-direction: row-reverse;
 }
 
+.icon-md {
+  margin-right: 15px;
+}
+.icon-md:last-of-type {
+  margin-right: 0;
+}
+.icon-md.fab {
+  font-size: 32px;
+}
+
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -146,6 +214,22 @@ a {
 
 .text-primary {
   color: #FCDC4B !important;
+}
+
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
 }
 
 footer {
@@ -180,6 +264,22 @@ footer .container {
   color: #FCDC4B !important;
 }
 
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
+}
+
 .bg-overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -190,6 +290,22 @@ footer .container {
 
 .text-primary {
   color: #FCDC4B !important;
+}
+
+.fab.fa-bootstrap {
+  color: #563D7C;
+}
+.fab.fa-linkedin {
+  color: #2674B2;
+}
+.fab.fa-html5 {
+  color: #E75534;
+}
+.fab.fa-js {
+  color: #EA7F39;
+}
+.fab.fa-sass {
+  color: #CD6799;
 }
 
 * {
@@ -328,9 +444,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.banner#shortcut-banner .btn {
-  margin-top: 15px;
 }
 .banner#shortcut-banner h2 {
   margin: 0;

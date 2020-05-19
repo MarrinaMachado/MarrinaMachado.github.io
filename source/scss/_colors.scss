@@ -6,6 +6,10 @@ $color-brand-linkedin: #2674B2;
 $color-overlay-dark: rgba(0,0,0,0.5);
 $color-primary: #FCDC4B;
 $color-primary-dark: #F3BF0C;
+$color-brand-sass: #CD6799;
+$color-brand-html5: #E75534;
+$color-brand-js: #EA7F39;
+$color-brand-bootstrap: #563D7C;
 
 // STYLE DEFINITION
 .bg-overlay {
@@ -17,4 +21,12 @@ $color-primary-dark: #F3BF0C;
 }
 .text-primary {
     color: $color-primary!important;
+}
+
+.fab {
+    &.fa-bootstrap { color: $color-brand-bootstrap; }
+    &.fa-linkedin { color: $color-brand-linkedin; }
+    &.fa-html5 { color: $color-brand-html5; }
+    &.fa-js { color: $color-brand-js; }
+    &.fa-sass { color: $color-brand-sass; }
 }

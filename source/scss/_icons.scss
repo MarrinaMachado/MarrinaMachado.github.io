@@ -1,3 +1,15 @@
+// IMPORTS
+@import "sizes";
+
 // VARIABLES
 $icon-size-sm: 16px;
 $icon-size-md: 32px;
+$icon-size-lg: 64px;
+
+// STYLE DEFINITION
+.icon-md {
+    margin-right: $padding-md;
+    &:last-of-type { margin-right:  0; }
+
+    &.fab { font-size: $icon-size-md; }
+}
