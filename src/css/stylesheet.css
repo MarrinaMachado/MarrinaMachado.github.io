@@ -369,7 +369,7 @@ footer .container, .navbar .container {
 .banner#welcome-banner {
   margin-top: -120px;
   padding-top: 120px;
-  background: url(../../build/img/welcome-banner.jpg) no-repeat top center scroll;
+  background: url(../../src/img/welcome-banner.jpg) no-repeat top center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -377,7 +377,7 @@ footer .container, .navbar .container {
 }
 
 .banner#shortcut-banner {
-  background: url(../../build/img/shortcut-banner.jpeg) no-repeat center center scroll;
+  background: url(../../src/img/shortcut-banner.jpeg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
