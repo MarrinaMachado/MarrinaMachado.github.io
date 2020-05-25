@@ -27,27 +27,27 @@ $btn-min-width: 128px;
 }
 
 .btn-primary {
-    background-color: $color-primary;
-    color: $color-dark;
+    background-color: $color-primary03;
+    color: $color-neutral03;
 
     border: none;
 
-    &:hover {
-        background-color: $color-primary-s1;
-        color: $color-light;
+    &:hover, &:focus, &:active {
+        background-color: $color-primary03!important;
+        color: $color-light01;
     }
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: $color-primary;
+    color: $color-primary02;
 
-    border: $border-width solid $color-primary;
+    border: $border-width solid $color-primary03!important;
     line-height: $btn-height - $border-width*2;
 
-    &:hover {
-        background-color: $color-primary-s1;
-        border-color: $color-primary-s1;
-        color: $color-light;
+    &:hover, &:focus, &:active {
+        background-color: $color-primary03;
+        border-color: $color-primary03;
+        color: $color-light01;
     }
 }
