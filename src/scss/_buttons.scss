@@ -27,7 +27,7 @@ $btn-min-width: 128px;
 }
 
 .btn-primary {
-    background-color: $color-primary03;
+    background-color: $color-primary02;
     color: $color-neutral03;
 
     border: none;
@@ -42,7 +42,7 @@ $btn-min-width: 128px;
     background-color: transparent;
     color: $color-primary02;
 
-    border: $border-width solid $color-primary03!important;
+    border: $border-width solid $color-primary02!important;
     line-height: $btn-height - $border-width*2;
 
     &:hover, &:focus, &:active {

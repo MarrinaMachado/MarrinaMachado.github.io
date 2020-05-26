@@ -308,7 +308,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
 }
 
 .btn-primary {
-  background-color: #F3BF0C;
+  background-color: #FCDC4B;
   color: #0B2D4A;
   border: none;
 }
@@ -320,7 +320,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
 .btn-secondary {
   background-color: transparent;
   color: #FCDC4B;
-  border: 3px solid #F3BF0C !important;
+  border: 3px solid #FCDC4B !important;
   line-height: 34px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
@@ -490,7 +490,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
 }
 
 .btn-primary {
-  background-color: #F3BF0C;
+  background-color: #FCDC4B;
   color: #0B2D4A;
   border: none;
 }
@@ -502,7 +502,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
 .btn-secondary {
   background-color: transparent;
   color: #FCDC4B;
-  border: 3px solid #F3BF0C !important;
+  border: 3px solid #FCDC4B !important;
   line-height: 34px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
