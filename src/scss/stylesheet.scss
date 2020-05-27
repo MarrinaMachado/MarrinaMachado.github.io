@@ -148,11 +148,13 @@ $navbar-height: 120px;
     .gallery-item {
         margin: $spacing-md 0;
 
-        .item-container {
+        .gallery-item-container {
             overflow: hidden;
+            @extend .bg-dark;
+            @extend .text-light;
         }
   
-        .item-description {
+        .gallery-item-details {
             display: grid;
             position: absolute;
             bottom: 0;
@@ -167,26 +169,26 @@ $navbar-height: 120px;
             transition: 0.8s ease;
         }
 
-        img {
+        .gallery-item-img {
             transition: 0.8s ease;
         }
 
         &:hover {
-            img {
+            .gallery-item-img {
                 transform: scale(1.3);
                 opacity: 0.5;
             }
 
-            .item-description {
+            .gallery-item-details {
                 opacity: 1; 
             }
         }
 
         @media (max-width: 960px) {
-            .item-description {
+            .gallery-item-details {
                 padding: $spacing-lg;
                 
-                p, h5 {
+                .gallery-item-title, .gallery-item-description {
                     font-size: 75%;
                 }
             }

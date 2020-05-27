@@ -8,7 +8,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -27,7 +27,7 @@
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -86,6 +86,12 @@ p.fancy {
   margin-top: 4px;
 }
 
+.footnote {
+  font-size: 12px;
+  line-height: 14px;
+  color: #2D4A63;
+}
+
 a {
   font-weight: 300;
 }
@@ -98,7 +104,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -117,7 +123,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -151,7 +157,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -170,7 +176,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -178,7 +184,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -197,7 +203,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -205,7 +211,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -224,7 +230,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -281,6 +287,12 @@ p.fancy {
   font-family: "La Belle Aurore", cursive;
   font-weight: 400;
   margin-top: 4px;
+}
+
+.footnote {
+  font-size: 12px;
+  line-height: 14px;
+  color: #2D4A63;
 }
 
 a {
@@ -333,7 +345,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -352,7 +364,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -360,7 +372,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -379,7 +391,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -387,7 +399,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.text-light, .text-light * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .text-light *, .gallery-grid .gallery-item .gallery-item-container * {
   color: #ffffff;
 }
 
@@ -406,7 +418,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   background-color: #FCDC4B !important;
 }
 
-.bg-dark {
+.bg-dark, .gallery-grid .gallery-item .gallery-item-container {
   background-color: #0B2D4A;
 }
 
@@ -463,6 +475,12 @@ p.fancy {
   font-family: "La Belle Aurore", cursive;
   font-weight: 400;
   margin-top: 4px;
+}
+
+.footnote {
+  font-size: 12px;
+  line-height: 14px;
+  color: #2D4A63;
 }
 
 a {
@@ -641,10 +659,10 @@ footer .container {
 .gallery-grid .gallery-item {
   margin: 16px 0;
 }
-.gallery-grid .gallery-item .item-container {
+.gallery-grid .gallery-item .gallery-item-container {
   overflow: hidden;
 }
-.gallery-grid .gallery-item .item-description {
+.gallery-grid .gallery-item .gallery-item-details {
   display: grid;
   position: absolute;
   bottom: 0;
@@ -655,21 +673,21 @@ footer .container {
   opacity: 0;
   transition: 0.8s ease;
 }
-.gallery-grid .gallery-item img {
+.gallery-grid .gallery-item .gallery-item-img {
   transition: 0.8s ease;
 }
-.gallery-grid .gallery-item:hover img {
+.gallery-grid .gallery-item:hover .gallery-item-img {
   transform: scale(1.3);
   opacity: 0.5;
 }
-.gallery-grid .gallery-item:hover .item-description {
+.gallery-grid .gallery-item:hover .gallery-item-details {
   opacity: 1;
 }
 @media (max-width: 960px) {
-  .gallery-grid .gallery-item .item-description {
+  .gallery-grid .gallery-item .gallery-item-details {
     padding: 32px;
   }
-  .gallery-grid .gallery-item .item-description p, .gallery-grid .gallery-item .item-description h5 {
+  .gallery-grid .gallery-item .gallery-item-details .gallery-item-title, .gallery-grid .gallery-item .gallery-item-details .gallery-item-description {
     font-size: 75%;
   }
 }
