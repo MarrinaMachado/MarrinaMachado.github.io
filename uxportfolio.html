@@ -2,7 +2,7 @@
     <head>
         <!-- METADATA -->
         <meta charset="UTF-8">
-        <title>Marina Machado's UX portfolio - Contact</title>
+        <title>Marina Machado's UX portfolio</title>
         <meta name="description" content="Hey there! Welcome to 'Put a smile on your design'. A UX Designer portfolio by Marina Machado.">
         <meta name="author" content="Marina Machado"/>
         <!-- NODE MODULES DEPENDENCIES -->
@@ -45,32 +45,41 @@
             </nav>
         </header>
         <main>
-            <section id="contact-form">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 d-none d-lg-block">
-                            <img class="img-fluid" src="src/img/illustrations/mail.png" alt="An illustration of a mail letter.">
+            <article class="container">
+                <div class="row">
+                    <section id="ux-portfolio-intro" class="col-lg-5">
+                        <h1>How I fell in love with UX</h1>
+                        <p>I was a software developer when it all started. We were developing the coolest feature... that was not working. Why?</p>
+                        <p>The Product Design team decided to conduct usability tests to figure out what was wrong. They felt I had liking for this "UX stuff" so they brought me in.</p>
+                        <p>Appalled, I watched the users struggle time after time over the code I so carefully worked on.</p>
+                        <p>I started to empathise with them and slowly it became my role to watch over our users.</p>
+                        <p>Quickly enough, I made my way to the Product Design team and UX became a part of my life.</p>
+                        <p class="footnote">* Most of my work was done under a NDA (Non Disclosure Agreement). As such, in some of the case studies I’m using analogies.</p>
+                        <br/>
+                    </section>
+                    <section id="ux-portfolio-gallery" class="col">
+                        <div class="thumbnail-grid">
+                            <div class="row">
+                                <div class="col mt-0">
+                                    <div class="thumbnail">
+                                        <a href="#" target="_blank">
+                                            <img class="thumbnail-image img-fluid" src="src/img/thumbnails/text-merge.png" alt="A spilled cup with coffe and code letters mixed in"/>
+                                            <div class="thumbnail-details">
+                                                <h5 class="thumbnail-title">How failure led to text merge success</h5>
+                                                <p class="thumbnail-description">Embracing failures to design better solutions</p>
+                                                <div class="thumbnail-badges">
+                                                    <span class="badge badge-primary">Usability Test</span>
+                                                    <span class="badge badge-primary">Product Delivery</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <form class="col">
-                            <h1>Contact</h1>
-                            <h3>Dear Marina Machado, </h3>
-                            <div class="form-group">
-                                <textarea id="contact-message" class="form-control" rows="5" placeholder="Your message..."></textarea>
-                            </div>
-                            <br/>
-                            <h3>Best regards,</h3>
-                            <div class="form-group">
-                                <input id="contact-name" type="text" class="form-control" placeholder="Your name..."/>
-                            </div>
-                            <br/>
-                            <a id="contact-submit" class="btn btn-primary btn-block">Send email</a>
-                            <script src="src/js/contact.js"></script>
-                            <br/>
-                            <small><b>Don't have an email app?</b> Contact me through <a href="https://www.linkedin.com/in/mei-marina-machado/">Linkedin</a></a></small>
-                        </form>
-                    </div>
+                    </section>
                 </div>
-            </section>
+            </article>
         </main>
         <footer class="text-light">
             <div class="container">
