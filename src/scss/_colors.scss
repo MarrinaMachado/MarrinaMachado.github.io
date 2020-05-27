@@ -11,7 +11,7 @@ $color-light03: #95B1CA;
 $color-light02: #D0DBE4;
 $color-light01: #ffffff;
 
-$color-overlay-dark: rgba(11, 45, 74, 0.5);
+$color-overlay-dark: rgba(0,0,0,0.5);
 
 $color-brand-linkedin: #2674B2;
 $color-brand-sass: #CD6799;
@@ -22,7 +22,6 @@ $color-brand-bootstrap: #563D7C;
 // STYLE DEFINITION
 .overlay {
     background-color: $color-overlay-dark;
-    @extend .text-light;
 }
 
 .text-light, .text-light * {
@@ -47,9 +46,4 @@ $color-brand-bootstrap: #563D7C;
 
 .bg-dark {
     background-color: $color-neutral03;
-}
-
-.badge-primary {
-    background-color: $color-primary02!important;
-    color: $color-neutral03!important;
 }
