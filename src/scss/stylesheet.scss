@@ -3,36 +3,40 @@
 @import "colors";
 @import "spacing";
 @import "buttons";
+@import "form";
 
-/*** CONTAINERS ***/
+$transition-effect: all 0.8s ease;
 
-// FOOTER & NAVBAR
+/*** PAGE STRUCTURE ***/
+
+// BODY
+body.content {
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+
+    main {
+        flex: 1;
+        overflow: auto;
+        margin-top: $spacing-xl;
+        margin-bottom: $spacing-xl;
+    }
+}
+
+// FOOTER
 footer {
     overflow: hidden;
     padding-top: $spacing-lg;
     padding-bottom: $spacing-lg;
 
-    color: $color-light;
-    background-color: $color-dark; 
+    color: $color-light01;
+    background-color: $color-neutral03; 
 
     .social-media-links {
         list-style: none;
 
-        .social-media-link .fab { color: $color-light; }
+        .social-media-link .fab { color: $color-light01; }
     }
-}
-
-$navbar-height: 120px;
-.navbar {
-    height: $navbar-height;
-    padding: 0;
-    margin: 0;
-
-    .navbar-collapse { flex-grow: initial; }
-    .navbar-nav { flex-direction: row-reverse; }
-}
-
-footer, .navbar {
 
     .container {
         padding-top: 0;
@@ -41,6 +45,43 @@ footer, .navbar {
         padding-right: $spacing-md;
     }
 }
+
+// NAVBAR
+$navbar-height: 120px;
+.navbar {
+    height: $navbar-height;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid $color-light02;
+
+    .navbar-collapse { flex-grow: initial; }
+    .navbar-nav { flex-direction: row-reverse; }
+
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: $spacing-md;
+        padding-right: $spacing-md;
+    }
+
+    .nav-item {
+
+        .nav-link {
+            color: $color-neutral01!important;
+        }
+    
+        &.active .nav-link {
+            color: $color-neutral03!important;
+        }
+        
+        &:hover .nav-link{
+            color: $color-neutral03!important;
+            font-weight: $font-weight-lg;
+        }
+    }
+}
+
+/*** CONTAINERS ***/
 
 // BANNERS
 .banner {
@@ -91,7 +132,7 @@ footer, .navbar {
         width: 100%;
 
         * {
-            background-color: $color-primary;
+            background-color: $color-primary02;
             line-height: 45px;
         }
     }

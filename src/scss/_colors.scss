@@ -1,10 +1,17 @@
 // VARIABLES
-$color-dark:#404040;
-$color-light: #ffffff;
+$color-neutral03: #0B2D4A;
+$color-neutral02: #2D4A63;
+$color-neutral01: #627E97;
+
+$color-primary03: #F3BF0C;
+$color-primary02: #FCDC4B;
+$color-primary01: #FFFFCA;
+
+$color-light03: #95B1CA;
+$color-light02: #D0DBE4;
+$color-light01: #ffffff;
 
 $color-overlay-dark: rgba(0,0,0,0.5);
-$color-primary: #FCDC4B;
-$color-primary-s1: #F3BF0C;
 
 $color-brand-linkedin: #2674B2;
 $color-brand-sass: #CD6799;
@@ -18,25 +25,25 @@ $color-brand-bootstrap: #563D7C;
 }
 
 .text-light, .text-light * {
-    color: $color-light;
+    color: $color-light01;
 }
 
 .text-primary {
-    color: $color-primary!important;
+    color: $color-primary02!important;
 }
 
 .navbar-light {
-    background-color: $color-light;
+    background-color: $color-light01;
 
     .nav-link {
-        color: $color-dark;
+        color: $color-neutral03;
     }
 }
 
 .bg-primary {
-    background-color: $color-primary!important;
+    background-color: $color-primary02!important;
 }
 
 .bg-dark {
-    background-color: $color-dark;
+    background-color: $color-neutral03;
 }
