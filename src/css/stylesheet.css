@@ -324,8 +324,8 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   line-height: 34px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #F3BF0C;
-  border-color: #F3BF0C;
+  background-color: #F3BF0C !important;
+  border-color: #F3BF0C !important;
   color: #ffffff;
 }
 
@@ -506,8 +506,8 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   line-height: 34px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #F3BF0C;
-  border-color: #F3BF0C;
+  background-color: #F3BF0C !important;
+  border-color: #F3BF0C !important;
   color: #ffffff;
 }
 
