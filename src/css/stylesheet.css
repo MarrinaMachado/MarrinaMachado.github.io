@@ -4,11 +4,11 @@
 @import "https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap";
 @import "https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap";
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -105,11 +105,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   margin-bottom: 0;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -163,11 +163,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #CD6799;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -195,11 +195,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #0B2D4A !important;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -227,11 +227,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #0B2D4A !important;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -366,11 +366,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #ffffff;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -398,11 +398,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #0B2D4A !important;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -430,11 +430,11 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:las
   color: #0B2D4A !important;
 }
 
-.overlay, .thumbnail .thumbnail-details {
+.overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details {
   background-color: rgba(11, 45, 74, 0.5);
 }
 
-.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .thumbnail .thumbnail-details * {
+.text-light, .gallery-grid .gallery-item .gallery-item-container, .overlay, .missing-img, .header .header-content, .thumbnail .thumbnail-details, .text-light *, .gallery-grid .gallery-item .gallery-item-container *, .overlay *, .missing-img *, .header .header-content *, .thumbnail .thumbnail-details * {
   color: #ffffff;
 }
 
@@ -599,6 +599,23 @@ body.content main {
   margin-bottom: 64px;
 }
 
+body.article {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+body.article main {
+  flex: 1;
+  overflow: auto;
+}
+body.article main article section {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+body.article main article section:last-of-type {
+  margin-bottom: 128px;
+}
+
 footer {
   overflow: hidden;
   padding-top: 32px;
@@ -735,10 +752,24 @@ footer .container {
   }
 }
 
+.thumbnail-grid {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media (max-width: 540px) {
+  .thumbnail-grid {
+    padding: 0;
+  }
+}
+.thumbnail-grid .thumbnail {
+  margin-top: 32px;
+}
+.thumbnail-grid .thumbnail:first-of-type {
+  margin-top: 0;
+}
+
 .thumbnail {
   display: block;
-  box-sizing: border-box;
-  overflow: hidden;
   position: relative;
 }
 .thumbnail .thumbnail-details {
@@ -748,19 +779,24 @@ footer .container {
   width: 100%;
   padding: 16px;
 }
-.thumbnail .thumbnail-details .thumbnail-description {
-  display: none;
-  margin-bottom: 8px;
+.thumbnail .thumbnail-details .thumbnail-title {
+  font-size: 16px;
+  margin: 0;
 }
-.thumbnail .thumbnail-details .thumbnail-badges {
+.thumbnail .thumbnail-details .thumbnail-badges, .thumbnail .thumbnail-details .thumbnail-description {
   display: none;
+}
+.thumbnail .thumbnail-details .thumbnail-description {
+  margin-bottom: 8px;
 }
 .thumbnail .thumbnail-details .thumbnail-badges .badge {
   margin-right: 8px;
+  margin-bottom: 8px;
 }
-.thumbnail .thumbnail-details .thumbnail-title {
-  font-size: 16px;
-  margin-bottom: 0;
+@media (max-width: 540px) {
+  .thumbnail .thumbnail-details .thumbnail-title {
+    font-size: 14px;
+  }
 }
 .thumbnail:hover a {
   text-decoration: none;
@@ -774,6 +810,61 @@ footer .container {
 .thumbnail:hover .thumbnail-title {
   font-size: 20px;
   margin-bottom: 16px;
+}
+@media (max-width: 540px) {
+  .thumbnail:hover .thumbnail-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .thumbnail:hover .thumbnail-description {
+    font-size: 14px;
+  }
+}
+@media (max-width: 540px) {
+  .thumbnail:hover .thumbnail-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .thumbnail:hover .thumbnail-description {
+    font-size: 14px;
+  }
+}
+
+.header {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header-content {
+  width: 100%;
+  height: 100%;
+  padding: 64px 32px;
+  text-align: center;
+}
+.header .header-content .header-title {
+  margin-bottom: 16px;
+}
+
+#header-apples-and-oranges {
+  background-image: url(../../src/img/thumbnails/apples-and-oranges.png);
+}
+
+.missing-img {
+  border: 1px solid #D0DBE4;
+  text-align: center;
+  padding: 64px;
+  margin-top: 32px;
+}
+.missing-img img {
+  height: 100%;
+  max-height: 400px;
+}
+
+.missing-img-label {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
