@@ -735,10 +735,19 @@ footer .container {
   }
 }
 
+.thumbnail-grid {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.thumbnail-grid .thumbnail {
+  margin-top: 32px;
+}
+.thumbnail-grid .thumbnail:first-of-type {
+  margin-top: 0;
+}
+
 .thumbnail {
   display: block;
-  box-sizing: border-box;
-  overflow: hidden;
   position: relative;
 }
 .thumbnail .thumbnail-details {
@@ -748,19 +757,18 @@ footer .container {
   width: 100%;
   padding: 16px;
 }
-.thumbnail .thumbnail-details .thumbnail-description {
-  display: none;
-  margin-bottom: 8px;
+.thumbnail .thumbnail-details .thumbnail-title {
+  font-size: 16px;
+  margin: 0;
 }
-.thumbnail .thumbnail-details .thumbnail-badges {
+.thumbnail .thumbnail-details .thumbnail-badges, .thumbnail .thumbnail-details .thumbnail-description {
   display: none;
+}
+.thumbnail .thumbnail-details .thumbnail-description {
+  margin-bottom: 8px;
 }
 .thumbnail .thumbnail-details .thumbnail-badges .badge {
   margin-right: 8px;
-}
-.thumbnail .thumbnail-details .thumbnail-title {
-  font-size: 16px;
-  margin-bottom: 0;
 }
 .thumbnail:hover a {
   text-decoration: none;
