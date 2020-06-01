@@ -23,6 +23,28 @@ body.content {
     }
 }
 
+body.article {
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+
+    main {
+        flex: 1;
+        overflow: auto;
+
+        article {
+            section {
+                margin-top: $spacing-xl;
+                margin-bottom: $spacing-xl;
+
+                &:last-of-type {
+                    margin-bottom: $spacing-xl*2;
+                }
+            } 
+        }
+    }
+}
+
 // FOOTER
 footer {
     overflow: hidden;
@@ -205,6 +227,10 @@ $navbar-height: 120px;
     padding-left: $spacing-lg;
     padding-right: $spacing-lg;
 
+    @media (max-width: 540px) {
+        padding: 0;
+    }
+
     .thumbnail { margin-top: $spacing-lg; }
     .thumbnail:first-of-type { margin-top: 0; }
 }
@@ -236,6 +262,14 @@ $navbar-height: 120px;
         .thumbnail-badges {
             .badge {
                 margin-right: $spacing-sm;
+                margin-bottom: $spacing-sm;
+            }
+        }
+
+
+        @media (max-width: 540px) {
+            .thumbnail-title {
+                font-size: $font-size-sm;
             }
         }
     }
@@ -249,5 +283,69 @@ $navbar-height: 120px;
             font-size: $font-size-xl;
             margin-bottom: $spacing-md;
         }
+
+        @media (max-width: 540px) {
+            .thumbnail-title {
+                font-size: $font-size-md;
+                margin-bottom: $spacing-sm;
+            }
+            .thumbnail-description {
+                font-size: $font-size-sm;}
+        }
+
+
+        @media (max-width: 540px) {
+            .thumbnail-title {
+                font-size: $font-size-md;
+                margin-bottom: $spacing-sm;
+            }
+            .thumbnail-description {
+                font-size: $font-size-sm;
+            }
+        }
     }
+}
+
+// HEADER
+.header {
+    background-position: center center;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    
+    .header-content {
+        width: 100%;
+        height: 100%;
+        @extend .overlay;
+        padding: $spacing-xl $spacing-lg;
+        text-align: center;
+
+        .header-title {
+            margin-bottom: $spacing-md;
+        }
+    }
+}
+
+#header-apples-and-oranges { background-image: url(../../src/img/thumbnails/apples-and-oranges.png); }
+
+// IMAGES
+.missing-img {
+    border: 1px solid $color-light02;
+    @extend .overlay;
+
+    text-align: center;
+    padding: $spacing-xl;
+
+    img {
+        height: 100%;
+        max-height: 400px
+    }
+
+    margin-top: $spacing-lg;
+
+}
+.missing-img-label{
+    display: block;
+    text-align: center;
+    margin-top: $spacing-sm;
+    margin-bottom: $spacing-lg;
 }
