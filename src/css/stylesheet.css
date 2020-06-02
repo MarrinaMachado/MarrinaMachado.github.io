@@ -849,6 +849,10 @@ footer .container {
   background-image: url(../../src/img/thumbnails/apples-and-oranges.png);
 }
 
+#header-no-fancy-research {
+  background-image: url(../../src/img/thumbnails/no-fancy-research.png);
+}
+
 .missing-img {
   border: 1px solid #D0DBE4;
   text-align: center;
