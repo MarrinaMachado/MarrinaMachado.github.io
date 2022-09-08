@@ -5,42 +5,108 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Marina Machado Portfolio</title>
+  <meta name="description" content="Product design portfolio">
+  <meta name="author" content="Marina Machado">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+  <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="lib/eva-icons/eva.min.js"></script>
+
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="src/css/normalize.css">
   <link rel="stylesheet" href="src/css/skeleton.css">
+  <link rel="stylesheet" href="src/css/stylesheet.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="src/img/favicon.svg">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Navbar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  <header class="navbar">
+    <div class="navbar-content">
+      <div class="logo-container">
+        <img class="logo" src="src/img/logo.svg"/>
       </div>
-    </div>
+      <nav class="navbar-list">
+        <ul>
+          <li>
+            <a class="navbar-list-item selected" href="index.html">Home<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="case_studies.html">Case studies<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="experience.html">Experience<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="about.html">About<span class="text-decoration">&nbsp;</span></a>
+          </li>
+        </ul>
+        <div class="buttons">
+          <!--
+          <button id="download-cv-button" class="button secondary">
+            <i class="icon left-icon" data-eva="cloud-download-outline"></i>
+            <span class="text">CV</span>
+          </button> 
+          -->
+          <a id="contact-button" class="button primary" href="mailto: marinamachado.contact@gmail.com">
+            <i class="icon left-icon" data-eva="email-outline"></i>
+            <span class="text">Let's chat!</span>
+          </a> 
+          <button id="menu-button" class="button-icon secondary">
+            <i class="icon" data-eva="menu"></i>
+            <i class="icon hidden" data-eva="close"></i>
+          </button>
+        </div>
+      </nav>
+  </div>
+  </header>
+  <div class="harmburger-menu hidden">
+      <nav class="navbar-list">
+        <ul>
+          <li>
+            <a class="navbar-list-item selected" href="index.html">Home<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="case_studies.html">Case studies<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="experience.html">Experience<span class="text-decoration">&nbsp;</span></a>
+          </li>
+          <li>
+            <a class="navbar-list-item " href="about.html">About<span class="text-decoration">&nbsp;</span></a>
+          </li>
+        </ul>
+        <div class="buttons">
+          <!--
+          <button id="download-cv-button" class="button secondary">
+            <i class="icon left-icon" data-eva="cloud-download-outline"></i>
+            <span class="text">CV</span>
+          </button> 
+          -->
+          <a id="contact-button" class="button primary" href="mailto: marinamachado.contact@gmail.com">
+            <i class="icon left-icon" data-eva="email-outline"></i>
+            <span class="text">Let's chat!</span>
+          </a> 
+        </div>
+      </nav>
   </div>
 
-<!-- End Document
+
+
+  <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script> eva.replace() </script> 
 </body>
 </html>
